@@ -1,0 +1,17 @@
+{
+  "name": "design-research-kit",
+  "description": "Metapackage: Lazyweb research + publish-research + auto-setup of your GitHub Pages site.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Vasudev Menon",
+    "url": "https://github.com/vasudev-io"
+  },
+  "homepage": "https://github.com/vasudev-io/playbook/tree/main/plugins/design-research-kit",
+  "repository": "https://github.com/vasudev-io/playbook",
+  "license": "MIT",
+  "keywords": ["design", "research", "lazyweb", "github-pages", "metapackage"],
+  "dependencies": [
+    "lazyweb",
+    "publish-research"
+  ]
+}

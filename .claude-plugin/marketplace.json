@@ -1,0 +1,40 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "playbook",
+  "description": "Vasudev's hub of Claude Code skills, plugins, guides, and workflows.",
+  "owner": {
+    "name": "Vasudev Menon",
+    "url": "https://github.com/vasudev-io"
+  },
+  "plugins": [
+    {
+      "name": "publish-research",
+      "description": "Publish a local research folder (with report.html) to your own GitHub Pages site. Auto-generates a landing index and per-session pages.",
+      "source": "./plugins/publish-research",
+      "category": "documentation",
+      "author": { "name": "Vasudev Menon", "url": "https://github.com/vasudev-io" },
+      "homepage": "https://github.com/vasudev-io/playbook/tree/main/plugins/publish-research"
+    },
+    {
+      "name": "design-research-kit",
+      "description": "One-command install of the full design research workflow: Lazyweb research skills + publish-research + auto-setup of your GitHub Pages site.",
+      "source": "./plugins/design-research-kit",
+      "category": "design",
+      "author": { "name": "Vasudev Menon", "url": "https://github.com/vasudev-io" },
+      "homepage": "https://github.com/vasudev-io/playbook/tree/main/plugins/design-research-kit"
+    },
+    {
+      "name": "lazyweb",
+      "description": "Lazyweb design research skills (not mine — bundled here for one-command install convenience, sourced directly from aboul3ata/lazyweb-skill).",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/aboul3ata/lazyweb-skill.git",
+        "path": "plugins/lazyweb",
+        "ref": "main"
+      },
+      "category": "design",
+      "author": { "name": "Lazyweb", "url": "https://lazyweb.com/" },
+      "homepage": "https://github.com/aboul3ata/lazyweb-skill"
+    }
+  ]
+}

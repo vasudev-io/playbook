@@ -1,0 +1,24 @@
+# vasudev-io/playbook
+
+Claude Code plugin marketplace + workflows hub by Vasudev Menon. Install via:
+
+  /plugin marketplace add vasudev-io/playbook
+  /plugin install design-research-kit@playbook
+
+For full agent install instructions, see [AGENTS.md](./AGENTS.md).
+
+## Plugins
+
+- [publish-research](./plugins/publish-research/README.md): publishes a local research folder (report.html) to a user's GitHub Pages site.
+- [design-research-kit](./plugins/design-research-kit/README.md): metapackage — installs Lazyweb research skills + publish-research + runs an auto-setup script.
+- lazyweb (third-party, bundled via git-subdir from [aboul3ata/lazyweb-skill](https://github.com/aboul3ata/lazyweb-skill)).
+
+## Guides
+
+- [Design research workflow](./guides/design-research-workflow.md): long-form explainer of the workflow.
+
+## Repo layout
+
+- `.claude-plugin/marketplace.json` — marketplace manifest.
+- `plugins/<name>/.claude-plugin/plugin.json` — per-plugin manifests.
+- `AGENTS.md` — imperative install script for any AI agent.

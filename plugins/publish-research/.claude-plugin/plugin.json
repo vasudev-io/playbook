@@ -1,0 +1,32 @@
+{
+  "name": "publish-research",
+  "description": "Publish a local research folder to your own GitHub Pages site.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Vasudev Menon",
+    "url": "https://github.com/vasudev-io"
+  },
+  "homepage": "https://github.com/vasudev-io/playbook/tree/main/plugins/publish-research",
+  "repository": "https://github.com/vasudev-io/playbook",
+  "license": "MIT",
+  "keywords": ["github-pages", "publish", "research", "documentation"],
+  "userConfig": {
+    "github_user": {
+      "type": "string",
+      "title": "Your GitHub username",
+      "description": "Used to publish reports to https://<github_user>.github.io/<publish_repo>/"
+    },
+    "publish_repo": {
+      "type": "string",
+      "title": "Name of the repo that will host your published research",
+      "description": "A repo under your GitHub account. Created automatically on first publish if it doesn't exist.",
+      "default": "design-research"
+    },
+    "display_name": {
+      "type": "string",
+      "title": "Display name shown on the landing page",
+      "description": "Falls back to your GitHub real name (then username) if omitted.",
+      "default": ""
+    }
+  }
+}
