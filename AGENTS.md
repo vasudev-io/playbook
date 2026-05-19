@@ -4,9 +4,10 @@ You are an AI coding agent installing Vasudev's `playbook` marketplace for the u
 
 ## What this repo is
 
-A Claude Code plugin marketplace + workflows hub. Two plugins live here:
+A Claude Code plugin marketplace + workflows hub. Plugins that live here:
 
 - `publish-research` — publishes a local research folder to the user's GitHub Pages.
+- `branch-audit` — staff-engineer audit of the current branch vs `main`: parallel subagents per concern + critic pass.
 - `design-research-kit` — metapackage that auto-installs `lazyweb` (design research skills) + `publish-research`, then runs setup.
 
 ## Install instructions (Claude Code only)
@@ -58,6 +59,15 @@ If the user wants the full design research workflow, run these steps:
 ```
 
 Then ask them for `github_user` and `publish_repo` (Claude Code will prompt). The publish script creates the repo + enables Pages automatically on first publish.
+
+## If the user wants the branch audit
+
+```
+/plugin marketplace add vasudev-io/playbook
+/plugin install branch-audit@playbook
+```
+
+No configuration required. Invoke with `/audit`, or natural-language triggers like "review my branch", "pre-flight check", "audit this branch". Runs read-only against `origin/main` (triple-dot diff from merge-base). Do NOT push, commit, or modify refs as part of running this skill — the skill itself enforces read-only.
 
 ## Do NOT
 

@@ -33,15 +33,24 @@ The only remaining manual step is grabbing a free Lazyweb MCP token from [their 
 
 Standalone — useful if you want to publish any `report.html` to your own Pages site, no Lazyweb required.
 
+## Audit your branch like a staff engineer
+
+```
+/plugin install branch-audit@playbook
+```
+
+A pre-merge audit of the current branch vs `main`. Instead of a single-pass review, it fans out **parallel subagents** per concern (regressions/races, repo conventions, dead code, edge cases), discovers your repo's own rules from `CLAUDE.md` / `AGENTS.md` / `.cursor/rules/*`, then runs a **critic pass** to drop false positives before reporting. Triggers on `/audit`, "review my branch", "pre-flight check", etc. Read-only.
+
 ## What's inside
 
 ```
 .
 ├── AGENTS.md                 ← imperative install script for AI agents
 ├── .claude-plugin/
-│   └── marketplace.json      ← marketplace manifest (3 plugins)
+│   └── marketplace.json      ← marketplace manifest (4 plugins)
 ├── plugins/
 │   ├── publish-research/     ← my publish skill (standalone-usable)
+│   ├── branch-audit/         ← staff-engineer branch audit (standalone-usable)
 │   └── design-research-kit/  ← metapackage + setup skill
 └── guides/                   ← long-form workflow guides
 ```

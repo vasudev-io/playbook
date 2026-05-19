@@ -16,6 +16,14 @@
       "homepage": "https://github.com/vasudev-io/playbook/tree/main/plugins/publish-research"
     },
     {
+      "name": "branch-audit",
+      "description": "Audit the current branch vs main like a staff engineer. Parallel subagents per concern (regressions/races, repo conventions, dead code, edge cases), critic pass to drop false positives, structured report with path:line citations.",
+      "source": "./plugins/branch-audit",
+      "category": "developer-tools",
+      "author": { "name": "Vasudev Menon", "url": "https://github.com/vasudev-io" },
+      "homepage": "https://github.com/vasudev-io/playbook/tree/main/plugins/branch-audit"
+    },
+    {
       "name": "design-research-kit",
       "description": "One-command install of the full design research workflow: Lazyweb research skills + publish-research + auto-setup of your GitHub Pages site.",
       "source": "./plugins/design-research-kit",
