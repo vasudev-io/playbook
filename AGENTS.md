@@ -9,7 +9,7 @@ A Claude Code plugin marketplace + workflows hub. Plugins that live here:
 - `publish-research` — publishes a local research folder to the user's GitHub Pages.
 - `branch-audit` — staff-engineer audit of the current branch vs `main`: parallel subagents per concern + critic pass.
 - `design-research-kit` — metapackage that auto-installs `lazyweb` (design research skills) + `publish-research`, then runs setup.
-- `motion-craft` — Emil Kowalski's design-engineering/animation skill, bundled with credit (not Vasudev's). No configuration.
+- `motion-craft`: Emil Kowalski's design-engineering/animation skill, bundled with credit (not Vasudev's). No configuration.
 
 ## Install instructions (Claude Code only)
 
