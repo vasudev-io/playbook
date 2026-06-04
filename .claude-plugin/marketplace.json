@@ -32,6 +32,14 @@
       "homepage": "https://github.com/vasudev-io/playbook/tree/main/plugins/design-research-kit"
     },
     {
+      "name": "motion-craft",
+      "description": "Web animation and motion craft for interfaces that feel right: easing, duration, springs, component patterns, clip-path, gesture, performance. Foundation is Emil Kowalski's design-engineering philosophy (credited, restated in original wording), extended with Vasudev's taste layer.",
+      "source": "./plugins/motion-craft",
+      "category": "design",
+      "author": { "name": "Vasudev Menon", "url": "https://github.com/vasudev-io" },
+      "homepage": "https://github.com/vasudev-io/playbook/tree/main/plugins/motion-craft"
+    },
+    {
       "name": "lazyweb",
       "description": "Lazyweb design research skills (not mine — bundled here for one-command install convenience, sourced directly from aboul3ata/lazyweb-skill).",
       "source": {
