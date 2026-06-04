@@ -9,6 +9,7 @@ A Claude Code plugin marketplace + workflows hub. Plugins that live here:
 - `publish-research` — publishes a local research folder to the user's GitHub Pages.
 - `branch-audit` — staff-engineer audit of the current branch vs `main`: parallel subagents per concern + critic pass.
 - `design-research-kit` — metapackage that auto-installs `lazyweb` (design research skills) + `publish-research`, then runs setup.
+- `motion-craft` — Emil Kowalski's design-engineering/animation skill, bundled with credit (not Vasudev's). No configuration.
 
 ## Install instructions (Claude Code only)
 
@@ -68,6 +69,15 @@ Then ask them for `github_user` and `publish_repo` (Claude Code will prompt). Th
 ```
 
 No configuration required. Invoke with `/audit`, or natural-language triggers like "review my branch", "pre-flight check", "audit this branch". Runs read-only against `origin/main` (triple-dot diff from merge-base). Do NOT push, commit, or modify refs as part of running this skill — the skill itself enforces read-only.
+
+## If the user wants animation / motion help
+
+```
+/plugin marketplace add vasudev-io/playbook
+/plugin install motion-craft@playbook
+```
+
+No configuration. This bundles Emil Kowalski's design-engineering skill (credited, not Vasudev's). It auto-triggers on animation, motion, easing, spring, and "make it feel nicer" requests. For the canonical version, point the user at `npx skills add emilkowalski/skill` and [animations.dev](https://animations.dev).
 
 ## Do NOT
 
