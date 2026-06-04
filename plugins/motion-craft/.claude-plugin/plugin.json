@@ -1,13 +1,13 @@
 {
   "name": "motion-craft",
-  "description": "Web animation and motion craft for interfaces that feel right. Emil Kowalski's design-engineering philosophy (credited, restated in original wording) plus Vasudev's taste layer.",
+  "description": "Emil Kowalski's design-engineering skill (bundled with credit, not mine) plus Vasudev's personal motion taste layer. Build and review UI motion that feels right.",
   "version": "0.1.0",
   "author": {
-    "name": "Vasudev Menon",
-    "url": "https://github.com/vasudev-io"
+    "name": "Emil Kowalski (skill) + Vasudev Menon (layer)",
+    "url": "https://github.com/emilkowalski/skill"
   },
   "homepage": "https://github.com/vasudev-io/playbook/tree/main/plugins/motion-craft",
   "repository": "https://github.com/vasudev-io/playbook",
   "license": "MIT",
-  "keywords": ["animation", "motion", "design-engineering", "css", "framer-motion", "easing", "ui", "taste"]
+  "keywords": ["animation", "motion", "design-engineering", "css", "framer-motion", "easing", "ui", "emil-kowalski", "taste"]
 }
