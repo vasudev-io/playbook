@@ -33,10 +33,10 @@
     },
     {
       "name": "motion-craft",
-      "description": "Emil Kowalski's design-engineering skill (bundled with credit, not mine — sourced from emilkowalski/skill) plus Vasudev's personal motion taste layer. Easing, duration, springs, component patterns, clip-path, gesture, performance.",
+      "description": "Emil Kowalski's design-engineering skill (not mine — bundled with credit, sourced directly from emilkowalski/skill, trigger-tuned for reliable activation). Easing, duration, springs, component patterns, clip-path, gesture, performance.",
       "source": "./plugins/motion-craft",
       "category": "design",
-      "author": { "name": "Emil Kowalski + Vasudev Menon", "url": "https://github.com/emilkowalski/skill" },
+      "author": { "name": "Emil Kowalski", "url": "https://github.com/emilkowalski/skill" },
       "homepage": "https://github.com/vasudev-io/playbook/tree/main/plugins/motion-craft"
     },
     {

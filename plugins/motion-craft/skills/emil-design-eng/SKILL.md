@@ -6,8 +6,7 @@ description: Emil Kowalski's philosophy on UI polish, component design, animatio
 <!-- CREDIT: This skill is Emil Kowalski's work, bundled here verbatim with credit
      (the only change is added trigger keywords in the description above). Source:
      https://github.com/emilkowalski/skill — install the canonical version with
-     `npx skills add emilkowalski/skill`. Course: https://animations.dev.
-     Vasudev's personal overrides live in the sibling `vasudev-motion` skill. -->
+     `npx skills add emilkowalski/skill`. Course: https://animations.dev. -->
 
 # Design Engineering
 

@@ -3,14 +3,9 @@
 Build and review UI motion that feels right: easing, duration, springs, component
 patterns, clip-path, gesture, performance, accessibility.
 
-This plugin bundles **two skills**:
-
-1. **`emil-design-eng`** — Emil Kowalski's design-engineering skill, **not mine**.
-   Bundled here verbatim for one-command install convenience, with credit. The only
-   change is added trigger keywords in the description so it activates reliably.
-2. **`vasudev-motion`** — my personal taste layer on top (reveals over spectacles,
-   wakes-when-in-view, my stack defaults, no em-dashes in microcopy). When the two
-   conflict, my layer wins.
+This is **Emil Kowalski's design-engineering skill, not mine.** It is bundled here
+verbatim for one-command install in this marketplace, with credit. The only change
+is added trigger keywords in the description so it activates reliably.
 
 ## Credit
 
@@ -34,8 +29,14 @@ already bundles `lazyweb`. If you are Emil and want it removed or changed, open 
 
 ## Use
 
-Ask for animation help, or audit existing motion. Both skills auto-trigger on
+Ask for animation help, or audit existing motion. The skill auto-triggers on
 animation, motion, transition, easing, spring, reveal, and "make it feel nice"
 requests.
 
 > use the motion-craft skill to audit and improve my frontend animations
+
+## Adding a personal layer later
+
+To override or extend Emil's defaults with your own taste, add a sibling skill at
+`skills/<your-name>-motion/SKILL.md` with its own frontmatter. Keep Emil's file
+untouched so it stays in sync with upstream; put only your deltas in yours.
