@@ -1,0 +1,13 @@
+{
+  "name": "motion-craft",
+  "description": "Emil Kowalski's design-engineering skill, bundled with credit (not mine, sourced from emilkowalski/skill) and trigger-tuned for reliable activation. Build and review UI motion that feels right.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Emil Kowalski (skill), packaged by Vasudev Menon",
+    "url": "https://github.com/emilkowalski/skill"
+  },
+  "homepage": "https://github.com/vasudev-io/playbook/tree/main/plugins/motion-craft",
+  "repository": "https://github.com/vasudev-io/playbook",
+  "license": "MIT",
+  "keywords": ["animation", "motion", "design-engineering", "css", "framer-motion", "easing", "ui", "emil-kowalski", "taste"]
+}
